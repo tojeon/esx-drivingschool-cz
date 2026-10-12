@@ -1,0 +1,49 @@
+# ESX Driving School CZ
+
+Tento resource je založený na ESX a obsahuje základní funkce autoškoly v češtině.
+
+## Funkce
+
+- autoškola s NPC instruktor
+- tlačítko pro otevření nabídky přes ox_target
+- teoretické zkoušky pro kategorie A, B a C
+- praktické zkoušky s navigací, blipem a pokyny od instruktora
+- výuka a kontrola rychlosti
+- SQL skript pro licence a otázky
+- instruktor sedí v autě s hráčem a naviguje ho v češtině
+- náročné nadávky od instruktora při chybě
+
+## Doporučené dependency
+
+- es_extended
+- ox_target
+- ox_lib
+- mysql-async
+
+## Instalace
+
+1. Přidejte resource do `resources/esx-drivingschool-cz`
+2. Importujte SQL soubor `sql/drivingschool.sql`
+3. Nastavte `sv_enforceGameBuild 3258` v server.cfg
+4. Ujistěte se, že máte `ox_target` nainstalovaný
+5. Restart server
+
+## Poznámka
+
+Tento script je funkční základ pro serverovou autoškolu a je vhodný jako začátek, který lze rozšířit podle přesného designu vašeho serveru.
+
+## Autor
+
+- tojeon
+
+## Jazyk
+
+- čeština
+- české texty a instrukce
+
+## Inspirace
+
+- navigace přes blip na mapě
+- instruktor v autě
+- tvrdé pokyny při chybě
+- čisté ESX přístup
